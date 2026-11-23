@@ -1,0 +1,301 @@
+
+*** Running vivado
+    with args -log Lab8_ALU_FF.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Lab8_ALU_FF.tcl
+
+
+INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detected. Your current license is active and will expire on 18-oct-2027.
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Fri Nov  6 11:26:35 2026
+# Process ID         : 25364
+# Current directory  : C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.runs/synth_1
+# Command line       : vivado.exe -log Lab8_ALU_FF.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Lab8_ALU_FF.tcl
+# Log file           : C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.runs/synth_1/Lab8_ALU_FF.vds
+# Journal file       : C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.runs/synth_1\vivado.jou
+# Running On         : DESKTOP-M00L9IR
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : 11th Gen Intel(R) Core(TM) i7-1185G7 @ 3.00GHz
+# CPU Frequency      : 2995 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 34048 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 36195 MB
+# Available Virtual  : 21554 MB
+#-----------------------------------------------------------
+
+****** Vivado v2026.1 (64-bit)
+  **** SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+  **** IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+  **** SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+  **** Start of session at: Fri Nov  6 11:26:35 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source Lab8_ALU_FF.tcl -notrace
+create_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 584.402 ; gain = 266.730
+Command: synth_design -top Lab8_ALU_FF -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Vivado_Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Vivado_Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Designutils 20-5008] Incremental synthesis strategy default
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 6672
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1347.082 ; gain = 577.941
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'AND4' [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/sources_1/imports/Downloads/Lab6_ALU.sv:58]
+INFO: [Synth 8-13127] previous definition of module 'AND4' is here [C:/xilinx/2026.1/Vivado/scripts/rt/data/unisim_comp.v:1583]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'OR4' [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/sources_1/imports/Downloads/Lab6_ALU.sv:67]
+INFO: [Synth 8-13127] previous definition of module 'OR4' is here [C:/xilinx/2026.1/Vivado/scripts/rt/data/unisim_comp.v:117411]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'XOR4' [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/sources_1/imports/Downloads/Lab6_ALU.sv:76]
+INFO: [Synth 8-13127] previous definition of module 'XOR4' is here [C:/xilinx/2026.1/Vivado/scripts/rt/data/unisim_comp.v:176713]
+INFO: [Synth 8-6157] synthesizing module 'Lab8_ALU_FF' [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/sources_1/new/Lab8_ALU_FF.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'Lab6_ALU' [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/sources_1/imports/Downloads/Lab6_ALU.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'ADD4' [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/sources_1/imports/Downloads/Lab6_ALU.sv:42]
+INFO: [Synth 8-6155] done synthesizing module 'ADD4' (0#1) [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/sources_1/imports/Downloads/Lab6_ALU.sv:42]
+INFO: [Synth 8-6157] synthesizing module 'AND4' [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/sources_1/imports/Downloads/Lab6_ALU.sv:51]
+INFO: [Synth 8-6155] done synthesizing module 'AND4' (0#1) [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/sources_1/imports/Downloads/Lab6_ALU.sv:51]
+INFO: [Synth 8-6157] synthesizing module 'OR4' [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/sources_1/imports/Downloads/Lab6_ALU.sv:60]
+INFO: [Synth 8-6155] done synthesizing module 'OR4' (0#1) [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/sources_1/imports/Downloads/Lab6_ALU.sv:60]
+INFO: [Synth 8-6157] synthesizing module 'XOR4' [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/sources_1/imports/Downloads/Lab6_ALU.sv:69]
+INFO: [Synth 8-6155] done synthesizing module 'XOR4' (0#1) [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/sources_1/imports/Downloads/Lab6_ALU.sv:69]
+INFO: [Synth 8-6157] synthesizing module 'MUX4bit_4to1' [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/sources_1/imports/Downloads/Lab6_ALU.sv:78]
+INFO: [Synth 8-6155] done synthesizing module 'MUX4bit_4to1' (0#1) [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/sources_1/imports/Downloads/Lab6_ALU.sv:78]
+INFO: [Synth 8-6155] done synthesizing module 'Lab6_ALU' (0#1) [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/sources_1/imports/Downloads/Lab6_ALU.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'clk_div' [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/sources_1/imports/Downloads/clk_div.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'clk_div' (0#1) [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/sources_1/imports/Downloads/clk_div.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Lab8_ALU_FF' (0#1) [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/sources_1/new/Lab8_ALU_FF.sv:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1466.777 ; gain = 697.637
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1466.777 ; gain = 697.637
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1466.777 ; gain = 697.637
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1466.777 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/constrs_1/new/Lab6_ALU.xdc]
+WARNING: [Vivado 12-584] No ports matched 'ALU_out[3]'. [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/constrs_1/new/Lab6_ALU.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/constrs_1/new/Lab6_ALU.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ALU_out[2]'. [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/constrs_1/new/Lab6_ALU.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/constrs_1/new/Lab6_ALU.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ALU_out[1]'. [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/constrs_1/new/Lab6_ALU.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/constrs_1/new/Lab6_ALU.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ALU_out[0]'. [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/constrs_1/new/Lab6_ALU.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/constrs_1/new/Lab6_ALU.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ALU_out[3]'. [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/constrs_1/new/Lab6_ALU.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/constrs_1/new/Lab6_ALU.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ALU_out[2]'. [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/constrs_1/new/Lab6_ALU.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/constrs_1/new/Lab6_ALU.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ALU_out[1]'. [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/constrs_1/new/Lab6_ALU.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/constrs_1/new/Lab6_ALU.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ALU_out[0]'. [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/constrs_1/new/Lab6_ALU.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/constrs_1/new/Lab6_ALU.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/constrs_1/new/Lab6_ALU.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.srcs/constrs_1/new/Lab6_ALU.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Lab8_ALU_FF_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Lab8_ALU_FF_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1516.270 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1516.391 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1516.391 ; gain = 747.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1516.391 ; gain = 747.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1516.391 ; gain = 747.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1516.391 ; gain = 747.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    4 Bit       Adders := 1     
++---XORs : 
+	   2 Input      4 Bit         XORs := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input    4 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3917] design Lab8_ALU_FF has port seg[6] driven by constant 1
+WARNING: [Synth 8-3917] design Lab8_ALU_FF has port seg[5] driven by constant 1
+WARNING: [Synth 8-3917] design Lab8_ALU_FF has port seg[4] driven by constant 1
+WARNING: [Synth 8-3917] design Lab8_ALU_FF has port seg[2] driven by constant 1
+WARNING: [Synth 8-3917] design Lab8_ALU_FF has port seg[1] driven by constant 1
+WARNING: [Synth 8-3917] design Lab8_ALU_FF has port an[3] driven by constant 0
+WARNING: [Synth 8-3917] design Lab8_ALU_FF has port an[2] driven by constant 0
+WARNING: [Synth 8-3917] design Lab8_ALU_FF has port an[1] driven by constant 0
+WARNING: [Synth 8-3917] design Lab8_ALU_FF has port an[0] driven by constant 0
+WARNING: [Synth 8-3917] design Lab8_ALU_FF has port dp driven by constant 1
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1537.336 ; gain = 768.195
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1681.559 ; gain = 912.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1681.559 ; gain = 912.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1691.629 ; gain = 922.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1967.363 ; gain = 1198.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1967.363 ; gain = 1198.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1967.363 ; gain = 1198.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1967.363 ; gain = 1198.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1967.363 ; gain = 1198.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1967.363 ; gain = 1198.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     7|
+|3     |LUT1   |     2|
+|4     |LUT4   |     2|
+|5     |LUT5   |     2|
+|6     |LUT6   |     2|
+|7     |FDRE   |    32|
+|8     |IBUF   |    11|
+|9     |OBUF   |    16|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1967.363 ; gain = 1198.223
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 10 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:28 . Memory (MB): peak = 1967.363 ; gain = 1148.609
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1967.363 ; gain = 1198.223
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1976.578 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 7 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1980.227 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 2ce3619e
+INFO: [Common 17-83] Releasing license: Vivado_Synthesis
+35 Infos, 18 Warnings, 11 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 1980.227 ; gain = 1395.824
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1980.227 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Colby Shannon/Lab8_ALU_FF/Lab8_ALU_FF.runs/synth_1/Lab8_ALU_FF.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file Lab8_ALU_FF_utilization_synth.rpt -pb Lab8_ALU_FF_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Nov  6 11:27:22 2026...

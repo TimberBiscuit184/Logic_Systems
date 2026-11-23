@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1793989651">
+  <File Type="PA-TCL" Name="Lab8_ALU_FF.tcl"/>
+  <File Type="REPORTS-TCL" Name="Lab8_ALU_FF_reports.tcl"/>
+  <File Type="INIT-TIMING" Name="Lab8_ALU_FF_timing_summary_init.rpt"/>
+  <File Type="OPT-DCP" Name="Lab8_ALU_FF_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Lab8_ALU_FF_drc_opted.rpt"/>
+  <File Type="OPT-UTIL" Name="Lab8_ALU_FF_utilization_opted.rpt"/>
+  <File Type="OPT-UTIL-PB" Name="Lab8_ALU_FF_utilization_opted.pb"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Lab8_ALU_FF_methodology_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Lab8_ALU_FF.hwdef"/>
+  <File Type="OPT-TIMING" Name="Lab8_ALU_FF_timing_summary_opted.rpt"/>
+  <File Type="OPT-RQA-PB" Name="Lab8_ALU_FF_rqa_opted.pb"/>
+  <File Type="PWROPT-DCP" Name="Lab8_ALU_FF_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Lab8_ALU_FF_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Lab8_ALU_FF_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Lab8_ALU_FF_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Lab8_ALU_FF_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Lab8_ALU_FF_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Lab8_ALU_FF_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Lab8_ALU_FF_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Lab8_ALU_FF_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Lab8_ALU_FF_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Lab8_ALU_FF_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="Lab8_ALU_FF_timing_summary_placed.rpt"/>
+  <File Type="PLACE-RQA-PB" Name="Lab8_ALU_FF_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Lab8_ALU_FF_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Lab8_ALU_FF_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Lab8_ALU_FF_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Lab8_ALU_FF_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="Lab8_ALU_FF_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Lab8_ALU_FF_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Lab8_ALU_FF_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Lab8_ALU_FF_routed_bb.dcp"/>
+  <File Type="ROUTE-UTIL" Name="Lab8_ALU_FF_utilization_routed.rpt"/>
+  <File Type="ROUTE-UTIL-PB" Name="Lab8_ALU_FF_utilization_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="Lab8_ALU_FF_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Lab8_ALU_FF_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Lab8_ALU_FF_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Lab8_ALU_FF_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Lab8_ALU_FF_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Lab8_ALU_FF_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="Lab8_ALU_FF_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="Lab8_ALU_FF_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Lab8_ALU_FF_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Lab8_ALU_FF_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Lab8_ALU_FF_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Lab8_ALU_FF_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Lab8_ALU_FF_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Lab8_ALU_FF_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Lab8_ALU_FF_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Lab8_ALU_FF_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Lab8_ALU_FF_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Lab8_ALU_FF_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Lab8_ALU_FF_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-RQS-PB" Name="Lab8_ALU_FF_rqs_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Lab8_ALU_FF_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Lab8_ALU_FF_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Lab6_ALU_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Lab6_ALU_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Lab6_ALU_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Lab6_ALU_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Lab6_ALU_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Lab6_ALU_bus_skew_postroute_physopted.rpx"/>
+  <File Type="NOC_TRAFFIC_SPEC_FILE" Name="Lab8_ALU_FF.nts"/>
+  <File Type="NOC_SOLUTION_FILE" Name="Lab8_ALU_FF.ncr"/>
+  <File Type="BG-BIT" Name="Lab8_ALU_FF.bit"/>
+  <File Type="BG-XML" Name="Lab8_ALU_FF.xml"/>
+  <File Type="BG-WRITE-BITSTREAM-XML" Name="write_bitstream.xml"/>
+  <File Type="BG-BIN" Name="Lab8_ALU_FF.bin"/>
+  <File Type="BITSTR-MSK" Name="Lab8_ALU_FF.msk"/>
+  <File Type="BITSTR-RBT" Name="Lab8_ALU_FF.rbt"/>
+  <File Type="BITSTR-NKY" Name="Lab8_ALU_FF.nky"/>
+  <File Type="BITSTR-BMM" Name="Lab8_ALU_FF_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="Lab8_ALU_FF.mmi"/>
+  <File Type="PDI-FILE" Name="Lab8_ALU_FF.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="Lab8_ALU_FF_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="Lab8_ALU_FF_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="Lab8_ALU_FF.rcfi"/>
+  <File Type="CFI_FILE" Name="Lab8_ALU_FF.cfi"/>
+  <File Type="RNPI_FILE" Name="Lab8_ALU_FF.rnpi"/>
+  <File Type="RCDO-FILE" Name="Lab8_ALU_FF.rcdo"/>
+  <File Type="MARKER-RNPI-FILE" Name="Lab8_ALU_FF_markers.rnpi"/>
+  <File Type="MARKER-RCDO-FILE" Name="Lab8_ALU_FF_markers.rcdo"/>
+  <File Type="BOOT_RNPI_FILE" Name="Lab8_ALU_FF_boot.rnpi"/>
+  <File Type="BOOT_MARKER_RNPI_FILE" Name="Lab8_ALU_FF_boot_markers.rnpi"/>
+  <File Type="PL_RNPI_FILE" Name="Lab8_ALU_FF_pld.rnpi"/>
+  <File Type="PL_MARKER_RNPI_FILE" Name="Lab8_ALU_FF_pld_markers.rnpi"/>
+  <File Type="PL_MASK_RNPI_FILE" Name="Lab8_ALU_FF_pld_mask.rnpi"/>
+  <File Type="PL_SHUTDOWN_RNPI_FILE" Name="Lab8_ALU_FF_pld_shutdown.rnpi"/>
+  <File Type="PL_UNMASK_RNPI_FILE" Name="Lab8_ALU_FF_pld_unmask.rnpi"/>
+  <File Type="PL-RCDO-FILE" Name="Lab8_ALU_FF_pld.rcdo"/>
+  <File Type="PL-CLEAR-RCDO-FILE" Name="Lab8_ALU_FF_pld_clear.rcdo"/>
+  <File Type="PL_MARKER_RCDO_FILE" Name="Lab8_ALU_FF_pld_markers.rcdo"/>
+  <File Type="PL_MASK_RCDO_FILE" Name="Lab8_ALU_FF_pld_mask.rcdo"/>
+  <File Type="PL_UNMASK_MARKER_RCDO_FILE" Name="Lab8_ALU_FF_pld_unmask_markers.rcdo"/>
+  <File Type="PL_UNMASK_RCDO_FILE" Name="Lab8_ALU_FF_pld_unmask.rcdo"/>
+  <File Type="NPI_FILE" Name="Lab8_ALU_FF.npi"/>
+  <File Type="RBD_FILE" Name="Lab8_ALU_FF.rbd"/>
+  <File Type="MMI-FILE" Name="Lab8_ALU_FF.mmi"/>
+  <File Type="BIF-FILE" Name="Lab8_ALU_FF.bif"/>
+  <File Type="BOOT-BIF-FILE" Name="Lab8_ALU_FF_boot.bif"/>
+  <File Type="PL-BIF-FILE" Name="Lab8_ALU_FF_pld.bif"/>
+  <File Type="LTX-FILE" Name="Lab8_ALU_FF.ltx"/>
+  <File Type="BOOT-LTX-FILE" Name="Lab8_ALU_FF_boot.ltx"/>
+  <File Type="PL-LTX-FILE" Name="Lab8_ALU_FF_pld.ltx"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Lab8_ALU_FF.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Lab8_ALU_FF.sysdef"/>
+  <File Type="BG-BGN" Name="Lab8_ALU_FF.bgn"/>
+  <File Type="BG-DRC" Name="Lab8_ALU_FF.drc"/>
+  <File Type="RDI-RDI" Name="Lab8_ALU_FF.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="Lab8_ALU_FF_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="Lab8_ALU_FF_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/clk_div.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/clk_div.v"/>
+        <Attr Name="ImportTime" Val="1793982923"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/Lab6_ALU.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/Lab6_ALU.sv"/>
+        <Attr Name="ImportTime" Val="1792280516"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Lab8_ALU_FF.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Lab8_ALU_FF"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/Lab6_ALU.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/Lab6_ALU.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2026"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
